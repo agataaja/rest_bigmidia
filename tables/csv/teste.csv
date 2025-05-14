@@ -1,0 +1,418 @@
+id,tipo,nome_completo,rank,cpf,evento,local,data,local,classe,estilo,prova,escopo
+215.0,atleta,CALEBE CORREA FERREIRA,2,34512813845,Seniors Pan-American Championships,Acapulco-Mexico,24 de February de 2024,Acapulco-Mexico,Seniors,Greco-Romano,72 kg,Internacional
+554.0,atleta,JOILSON DE BRITO RAMOS JUNIOR,2,16364901743,Seniors Pan-American Championships,Acapulco-Mexico,24 de February de 2024,Acapulco-Mexico,Seniors,Greco-Romano,77 kg,Internacional
+1243.0,atleta,SOSRUKO KODZOKOV,1,71862956146,Seniors Pan-American Championships,Acapulco-Mexico,24 de February de 2024,Acapulco-Mexico,Seniors,Greco-Romano,82 kg,Internacional
+399.0,atleta,LAIS NUNES DE OLIVEIRA,3,04105838121,Seniors Pan-American Championships,Acapulco-Mexico,24 de February de 2024,Acapulco-Mexico,Seniors,Livre Feminino,62 kg,Internacional
+241.0,atleta,ANA LUIZA PEREIRA FRANCA,3,06814674106,Seniors Pan-American Championships,Acapulco-Mexico,24 de February de 2024,Acapulco-Mexico,Seniors,Livre Feminino,59 kg,Internacional
+489.0,atleta,GIULLIA RODRIGUES PENALBER DE OLIVEIRA,2,12277888788,Seniors Pan-American Championships,Acapulco-Mexico,24 de February de 2024,Acapulco-Mexico,Seniors,Livre Feminino,57 kg,Internacional
+2083.0,atleta,ARTHUR MOREIRA DA SILVA ANDRADE,1,12454872480,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,45 kg,Nacional
+2206.0,atleta,ANDERSON MAGALHAES SILVA,2,08473683196,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,45 kg,Nacional
+1379.0,atleta,ARTHUR DIMAS ANDRADE ARAUJO,3,13150806488,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,45 kg,Nacional
+2242.0,atleta,WALLACE FERNANDO DOS PRAZERES ARAGAO,3,09975232205,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,45 kg,Nacional
+857.0,atleta,FRANCISCO WILLISON DA SILVA PANDURO,1,10375784225,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,48 kg,Nacional
+2084.0,atleta,GABRIEL SANTOS DA CRUZ,2,10364295554,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,48 kg,Nacional
+1333.0,atleta,DAVY GONCALVES GOMES,3,20968529780,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,48 kg,Nacional
+2236.0,atleta,WALLISON FELIX DE OLIVEIRA,3,14303110450,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,48 kg,Nacional
+2213.0,atleta,MATHEUS HENRIQUE SANTOS RIBEIRO,1,08474726204,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,51 kg,Nacional
+1133.0,atleta,ARTHUR PONCIANO DUARTE SILVA,2,08747025182,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,51 kg,Nacional
+223.0,atleta,LUAN ALVES CABRAL,3,09163104180,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,51 kg,Nacional
+2239.0,atleta,SANZIO HENRIQUE SOARES FLHO,3,70659296632,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,51 kg,Nacional
+1203.0,atleta,LUCAS DE OLIVEIRA SILVA,1,06246953522,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,55 kg,Nacional
+1078.0,atleta,ALISSON LEO GONCALVES DA SILVA,2,15523510920,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,55 kg,Nacional
+2173.0,atleta,RENNAN ALEXANDRE BENICIO SOUZA LIMA,3,10026917297,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,55 kg,Nacional
+738.0,atleta,SAMUEL RYAN CANELA SILVA,3,50111327814,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,55 kg,Nacional
+2091.0,atleta,VICTOR ANDERSON DE SOUZA LIMA,1,04714548263,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,60 kg,Nacional
+1548.0,atleta,ERICK VIRGINIO ALVES DA SILVA,2,54317694808,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,60 kg,Nacional
+861.0,atleta,FABIAN LUCIANO LIMA VILLACORTA,3,06141512283,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,60 kg,Nacional
+1420.0,atleta,MARCUS EDUARDO ANTUNES DE SOUZA,3,55845284805,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,60 kg,Nacional
+34.0,atleta,ENZO ANTONIO DOS ANJOS PEGORETTE,1,17997425713,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,65 kg,Nacional
+94.0,atleta,VITOR DE LIMA BRAGA,2,07022784248,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,65 kg,Nacional
+1201.0,atleta,PEDRO VINICIUS ARAPIRACA DE OLIVEIRA,3,05727504554,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,65 kg,Nacional
+1384.0,atleta,RYAN LUCAS ARAUJO DAS NEVES,3,12752065493,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,65 kg,Nacional
+777.0,atleta,EDUARDO NUNES DE LIMA TORRES,1,10504340484,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,71 kg,Nacional
+1336.0,atleta,PAULO CAMILO VIANA NETO,2,71155255445,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,71 kg,Nacional
+1922.0,atleta,CASSIANO ZUSE PICOLOTTO,3,09572634909,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,71 kg,Nacional
+1430.0,atleta,EMERSON ALEXANDRE DA SILVA,3,71157642470,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,71 kg,Nacional
+1467.0,atleta,MAYCON GABRIEL FELIPE DO NASCIMENTO,1,70521767423,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,80 kg,Nacional
+125.0,atleta,MYTHIS RICHARD BATISTA DE OLIVEIRA,2,18453845719,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,80 kg,Nacional
+1171.0,atleta,VINICIUS SILVA FARIAS,3,47636333848,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,80 kg,Nacional
+143.0,atleta,JOAO VITOR TENORIO CORREIA LIMA,3,12356898409,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,80 kg,Nacional
+1386.0,atleta,THIERRY GUILHERME DE SOUZA,1,71113972408,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,92 kg,Nacional
+1964.0,atleta,ALLAN SMITH DE SOUSA BESERRA,2,43028607824,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,92 kg,Nacional
+686.0,atleta,JOAO VICTOR VEIGA COELHO,3,50301606803,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,92 kg,Nacional
+735.0,atleta,DIEGO DA SILVA GOMES,3,06918589261,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,92 kg,Nacional
+2115.0,atleta,WANDSON RODRIGUES DE DEUS,1,05958821105,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,110 kg,Nacional
+2144.0,atleta,AKILLYS MELO DO VAL,2,06682408226,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,110 kg,Nacional
+685.0,atleta,LEONARDO TEODORO FRIAS,3,47028229858,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,110 kg,Nacional
+2060.0,atleta,JEAN FELIPE DA SILVA LOPES,3,09877812436,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Masculino,110 kg,Nacional
+1314.0,atleta,LAVOZIER HERMINIO WADICK MARUBO,1,02315624207,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,55 kg,Nacional
+35.0,atleta,YURI LANDIM RIBEIRO,2,20230461735,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,55 kg,Nacional
+858.0,atleta,JOAO GABRIEL ZEUS DA COSTA BARREIRA,3,07159760280,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,55 kg,Nacional
+1675.0,atleta,GUSTAVO JEREMIAS BATISTA DA SILVA,3,44172106838,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,55 kg,Nacional
+1247.0,atleta,DANIELSON DE JESUS FERREIRA NUNES,1,05723326295,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,60 kg,Nacional
+1911.0,atleta,GABRIEL GOMES FRANCISCO,2,16290024701,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,60 kg,Nacional
+661.0,atleta,WIDYSON CEZAR MONTEIRO DA SILVA,3,71358503435,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,60 kg,Nacional
+863.0,atleta,HEITOR ABREU SIQUEIRA COSTA,3,07236393100,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,60 kg,Nacional
+811.0,atleta,LUCAS EMANUEL MACIEL DA SILVA,1,71757928405,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,65 kg,Nacional
+1715.0,atleta,CAUA FERREIRA DOS SANTOS,2,56812557862,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,65 kg,Nacional
+813.0,atleta,NICOLAS VITOR VIANA ALVES BORGES,3,71776428463,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,65 kg,Nacional
+1275.0,atleta,ALEX CADMIEL NASCIMENTO DAMASCENO,3,08195454305,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,65 kg,Nacional
+777.0,atleta,EDUARDO NUNES DE LIMA TORRES,1,10504340484,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,71 kg,Nacional
+782.0,atleta,SAMUEL FERREIRA TORRES,2,04033112251,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,71 kg,Nacional
+1236.0,atleta,THOMAS ESPINDOLA ALBUQUERQUE DE SOUZA,3,47111245865,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,71 kg,Nacional
+1388.0,atleta,HELANO EMANUEL OLIVEIRA PEREIRA,3,10433675438,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,71 kg,Nacional
+1239.0,atleta,FERNANDO BENCKE BRANDAO LOPES DIAS,1,11572274905,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,80 kg,Nacional
+332.0,atleta,KAIRE JAMERSON LIMA GOMES,2,16036705484,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,80 kg,Nacional
+149.0,atleta,GUILHERME LANDIM SALLES,3,21217543775,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,80 kg,Nacional
+1240.0,atleta,LUIZ GABRIEL ROCHA DE AVELAR,3,07492814216,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,80 kg,Nacional
+1320.0,atleta,JOAO PEDRO OLIVEIRA DA PENHA,1,04695393212,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,92 kg,Nacional
+2034.0,atleta,PRESLEY GABRIEL AMORIM COHEN,2,04196247245,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,92 kg,Nacional
+2227.0,atleta,LUCIANO DE LIMA BARBOSA,3,12767122439,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,92 kg,Nacional
+2210.0,atleta,PAULO FERNANDO DOS SANTOS MORAES,3,05130664205,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,92 kg,Nacional
+1940.0,atleta,BRUNO EDUARDO DA SILVA MARQUES,1,03946822207,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,110 kg,Nacional
+685.0,atleta,LEONARDO TEODORO FRIAS,2,47028229858,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,110 kg,Nacional
+2193.0,atleta,EXPEDITO FERRAO VIEIRA,3,07013376213,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Greco-Romano,110 kg,Nacional
+703.0,atleta,JENNIFER DE SOUZA QUEIROZ,1,06400380264,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,43 kg,Nacional
+2003.0,atleta,BRUNA CORREA PINHEIRO,2,05773329298,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,43 kg,Nacional
+1382.0,atleta,MARIA EDUARDA CAMPOS,3,71103967460,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,43 kg,Nacional
+2118.0,atleta,JENNIFER IZOLINA NASCIMENTO DOS SANTOS,1,04055994206,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,46 kg,Nacional
+1368.0,atleta,YASMIN VITORIA VENANCIO RUEL,2,22560648750,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,46 kg,Nacional
+334.0,atleta,ANA KAROLINA MOURA DOS SANTOS,3,13787580484,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,46 kg,Nacional
+2121.0,atleta,DEBORAH REBECCA DUARTE DA SILVA,3,04248691280,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,46 kg,Nacional
+210.0,atleta,GIOVANNA CINCINATO PIMENTA,1,43803375886,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,49 kg,Nacional
+795.0,atleta,VITORIA DA SILVA VIEIRA,2,17948600701,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,49 kg,Nacional
+378.0,atleta,MARIANA MARIANELLI LOPES ALMEIDA,3,15475879702,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,49 kg,Nacional
+1263.0,atleta,AGATA ELLEN LIMA FRANCO,3,07685553295,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,49 kg,Nacional
+760.0,atleta,EVILY BERNARDINO WONG,1,53035954801,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,53 kg,Nacional
+711.0,atleta,EMILE SUELLEN SATERO DE FRANCA,2,71720376425,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,53 kg,Nacional
+1354.0,atleta,LUANNY BARBOSA DE SOUZA,3,20391728741,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,53 kg,Nacional
+1974.0,atleta,REBECCA BOTELHO DA SILVA,3,16385477770,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,53 kg,Nacional
+1233.0,atleta,AVRIL KAROLINE DE SOUZA OLIVEIRA,1,07163549261,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,57 kg,Nacional
+335.0,atleta,RAYSSA DE SOUZA ALVES,2,10224738402,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,57 kg,Nacional
+207.0,atleta,YASMIM NEPER OLIVEIRA SANTOS,3,50974784877,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,57 kg,Nacional
+1817.0,atleta,LUCIA HELENA DANTAS DE FREITAS,3,19422935776,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,57 kg,Nacional
+76.0,atleta,BEATRIZ CRISTINA CALASANS CAMARGO,1,53180643889,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,61 kg,Nacional
+1353.0,atleta,MARIA EDUARDA RIBEIRO DO NASCIMENTO,2,16151250788,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,61 kg,Nacional
+2069.0,atleta,AMANDA PEREIRA MACARIO,3,20105950769,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,61 kg,Nacional
+2157.0,atleta,FERNANDA MELO DA CAMARA,3,71309949409,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,61 kg,Nacional
+208.0,atleta,MAYARA NEPER OLIVEIRA SANTOS,1,50974853860,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,65 kg,Nacional
+698.0,atleta,EVILLY RAPHAELLY JESUS COSTA,2,06709969207,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,65 kg,Nacional
+1631.0,atleta,TAYLANA LIMA RIBEIRO,3,08557596316,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,65 kg,Nacional
+1979.0,atleta,RAYNE GABRIELY ALVES DA SILVA,3,14141847437,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,65 kg,Nacional
+726.0,atleta,ILORRANY PRADO BATISTA,1,54507233852,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,69 kg,Nacional
+60.0,atleta,ANA LARA VICENTE DA CRUZ,2,51395867895,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,69 kg,Nacional
+1700.0,atleta,ESTHER SANTOS DE OLIVEIRA,3,13337216927,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,69 kg,Nacional
+1245.0,atleta,AGATHA MACIEL AMARANTE,3,07619357203,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,69 kg,Nacional
+2165.0,atleta,KAILLANY MELO FERREIRA DA CRUZ,1,15272100735,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,73 kg,Nacional
+1856.0,atleta,ANA VITORIA GABRIEL ESPECIE BARCELOS,2,15963443776,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,73 kg,Nacional
+1462.0,atleta,JULIA DA SILVA JOAQUIM,3,48969457860,Campeonato Brasileiro U17,Aracaju - SE,24 de May de 2024,Aracaju - SE,U17,Livre Feminino,73 kg,Nacional
+208.0,atleta,MAYARA NEPER OLIVEIRA SANTOS,3,50974853860,U17 Pan-American Championships,Santo Domingo - Dominican Republic,30 de June de 2024,Santo Domingo - Dominican Republic,U17,Livre Feminino,65 kg,Internacional
+1126.0,atleta,RAPHAEL HIGOR RODRIGUES DUARTE,2,10519235142,U17 Pan-American Championships,Santo Domingo - Dominican Republic,30 de June de 2024,Santo Domingo - Dominican Republic,U17,Greco-Romano,110 kg,Internacional
+149.0,atleta,GUILHERME LANDIM SALLES,1,21217543775,U17 Pan-American Championships,Santo Domingo - Dominican Republic,30 de June de 2024,Santo Domingo - Dominican Republic,U17,Greco-Romano,80 kg,Internacional
+811.0,atleta,LUCAS EMANUEL MACIEL DA SILVA,3,71757928405,U17 Pan-American Championships,Santo Domingo - Dominican Republic,30 de June de 2024,Santo Domingo - Dominican Republic,U17,Greco-Romano,65 kg,Internacional
+35.0,atleta,YURI LANDIM RIBEIRO,2,20230461735,U17 Pan-American Championships,Santo Domingo - Dominican Republic,30 de June de 2024,Santo Domingo - Dominican Republic,U17,Greco-Romano,48 kg,Internacional
+2113.0,atleta,TYLER SILVA NEIVA,3,06436790144,U17 Pan-American Championships,Santo Domingo - Dominican Republic,30 de June de 2024,Santo Domingo - Dominican Republic,U17,Livre Masculino,71 kg,Internacional
+1907.0,atleta,CAIO DUARTE ARON,3,12072151120,U20 Pan-American Championships,Lima - Peru,14 de July de 2024,Lima - Peru,U20,Livre Masculino,57 kg,Internacional
+1975.0,atleta,BENJAMIN SOUZA ZUCKERMAN,2,04972112115,U20 Pan-American Championships,Lima - Peru,14 de July de 2024,Lima - Peru,U20,Livre Masculino,61 kg,Internacional
+229.0,atleta,PAULO ANDRE GONCALVES DA SILVA,2,07286375105,U20 Pan-American Championships,Lima - Peru,14 de July de 2024,Lima - Peru,U20,Livre Masculino,74 kg,Internacional
+2056.0,atleta,LEANDRO JORDAN ARAUJO,3,06038360115,U20 Pan-American Championships,Lima - Peru,14 de July de 2024,Lima - Peru,U20,Livre Masculino,79 kg,Internacional
+617.0,atleta,KYLE SANTANA OLIVEIRA,3,71785184130,U20 Pan-American Championships,Lima - Peru,14 de July de 2024,Lima - Peru,U20,Livre Masculino,97 kg,Internacional
+72.0,atleta,PEDRO HENRIQUE DE SOUZA RODRIGUES,3,70231360452,U20 Pan-American Championships,Lima - Peru,14 de July de 2024,Lima - Peru,U20,Greco-Romano,55 kg,Internacional
+603.0,atleta,MATHEUS VICTOR SILVA DE MACEDO,3,59181511841,U20 Pan-American Championships,Lima - Peru,14 de July de 2024,Lima - Peru,U20,Greco-Romano,77 kg,Internacional
+138.0,atleta,KAUAN LUIZ FERREIRA GOMES,2,13048135766,U20 Pan-American Championships,Lima - Peru,14 de July de 2024,Lima - Peru,U20,Greco-Romano,87 kg,Internacional
+104.0,atleta,MAYARA RAMOS PEREIRA,3,49730809852,U20 Pan-American Championships,Lima - Peru,14 de July de 2024,Lima - Peru,U20,Livre Feminino,62 kg,Internacional
+621.0,atleta,THAIS TERTULIANO SALES,3,07036408103,U20 Pan-American Championships,Lima - Peru,14 de July de 2024,Lima - Peru,U20,Livre Feminino,68 kg,Internacional
+487.0,atleta,RUAN FIGUEIREDO DA ROCHA,1,05640924284,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,57 kg,Nacional
+39.0,atleta,ROGER EMERSON DOS SANTOS RAMALHETE,2,18490406723,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,57 kg,Nacional
+84.0,atleta,JAILSON LEITE DA SILVA,3,70608556297,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,57 kg,Nacional
+700.0,atleta,MARCUS VINICIUS ALENCAR MARTINS,3,05746883239,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,57 kg,Nacional
+1219.0,atleta,JOSE CARLOS MARTINS DOS SANTOS,1,05148569204,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,61 kg,Nacional
+49.0,atleta,LUAN BORGES NOGUEIRA LIMA,2,47744958837,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,61 kg,Nacional
+643.0,atleta,LUIZ HENRIQUE ELIZEU LAURINDO,3,59760817896,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,61 kg,Nacional
+2513.0,atleta,WENDRIO DA SILVA CHAVES,3,06690347206,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,61 kg,Nacional
+460.0,atleta,GABRIEL VINICIUS DA SILVA FERREIRA,1,71033363421,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,65 kg,Nacional
+460.0,atleta,GABRIEL VINICIUS DA SILVA FERREIRA,1,71033363421,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,65 kg,Nacional
+198.0,atleta,WENZO NOGUEIRA DA SILVA,2,50873917880,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,65 kg,Nacional
+198.0,atleta,WENZO NOGUEIRA DA SILVA,2,50873917880,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,65 kg,Nacional
+109.0,atleta,LUCAS DE OLIVEIRA SILVA,3,55827523828,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,65 kg,Nacional
+109.0,atleta,LUCAS DE OLIVEIRA SILVA,3,55827523828,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,65 kg,Nacional
+96.0,atleta,RAFAEL REIS SANTOS SILVA,3,59427781831,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,65 kg,Nacional
+96.0,atleta,RAFAEL REIS SANTOS SILVA,3,59427781831,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,65 kg,Nacional
+196.0,atleta,GABRIEL DA SILVA RODRIGUES BRITO,1,47506908808,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,70 kg,Nacional
+1696.0,atleta,CAETANO DUARTE MONTEIRO,2,19970860771,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,70 kg,Nacional
+47.0,atleta,LUIZ EDUARDO CASTRO ZEDNIK,3,59283743806,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,70 kg,Nacional
+587.0,atleta,ANGELO ANSELMO CAFE DE OLIVEIRA,3,06078271148,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,70 kg,Nacional
+127.0,atleta,JOAO PEDRO REIS GONCALVES SILVA,1,59199870819,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,74 kg,Nacional
+78.0,atleta,DAVI GONCALVES AGUIAR,2,13825331440,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,74 kg,Nacional
+626.0,atleta,MATEUS SOARES DOS SANTOS,3,21625550774,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,74 kg,Nacional
+227.0,atleta,HEITOR ARRUDA DA SILVA,3,09144162197,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,74 kg,Nacional
+412.0,atleta,DAVI AQUINO SILVESTRE,1,70436547422,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,79 kg,Nacional
+318.0,atleta,VICTOR HUGO DE TOLEDO FARIA,2,45771288888,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,79 kg,Nacional
+249.0,atleta,JHONATHAN DECHICO SATIRO,3,44014061841,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,79 kg,Nacional
+743.0,atleta,AKYRIS GABRIEL TEIXEIRA RAMOS,3,02228342262,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,79 kg,Nacional
+1150.0,atleta,MAX GABRIEL FRANCA MAGALHAES DE ALMEIDA,1,71258969106,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,86 kg,Nacional
+636.0,atleta,JOAO VICTOR CASTRO DE OLIVEIRA,2,18313025786,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,86 kg,Nacional
+414.0,atleta,MATHEUS VITAL GOMES,3,70425521486,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,86 kg,Nacional
+125.0,atleta,MYTHIS RICHARD BATISTA DE OLIVEIRA,1,18453845719,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,92 kg,Nacional
+2082.0,atleta,ADRIAN VASCONCELOS DE SANTANA,2,86086355509,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,92 kg,Nacional
+324.0,atleta,KAIO HENRIQUE MARTINS DE SOUSA,3,07067503140,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,92 kg,Nacional
+1172.0,atleta,ANDREY GABRYELL SOARES DE SOUZA SANTOS,1,48295093843,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,97 kg,Nacional
+675.0,atleta,PEDRO FERNANDES DE MORAIS,1,41514185806,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,125 kg,Nacional
+1153.0,atleta,WESLEY BARROS DAS DORES,2,45008336843,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,125 kg,Nacional
+1119.0,atleta,LUCAS ALBRES FALCAO MAIA,3,06752010129,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Masculino,125 kg,Nacional
+113.0,atleta,GUSTAVO DOS SANTOS SILVA,1,17167405760,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,60 kg,Nacional
+1219.0,atleta,JOSE CARLOS MARTINS DOS SANTOS,2,05148569204,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,60 kg,Nacional
+5.0,atleta,YAN LANDIM RIBEIRO,3,18907094764,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,60 kg,Nacional
+328.0,atleta,KAUA HENRIQUE BARRETO NUNES,3,08762268538,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,60 kg,Nacional
+587.0,atleta,ANGELO ANSELMO CAFE DE OLIVEIRA,1,06078271148,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,67 kg,Nacional
+460.0,atleta,GABRIEL VINICIUS DA SILVA FERREIRA,2,71033363421,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,67 kg,Nacional
+622.0,atleta,JOAO VITOR DE JESUS SILVA,3,55158052832,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,67 kg,Nacional
+254.0,atleta,WILLIAM GONCALVES DA SILVA,3,19767035737,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,67 kg,Nacional
+182.0,atleta,ENZO PORTILHO DOS SANTOS SOARES DA SILVA,1,20367117746,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,77 kg,Nacional
+412.0,atleta,DAVI AQUINO SILVESTRE,2,70436547422,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,77 kg,Nacional
+465.0,atleta,JONATA DA SILVA DE SOUZA,3,71564509486,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,77 kg,Nacional
+318.0,atleta,VICTOR HUGO DE TOLEDO FARIA,3,45771288888,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,77 kg,Nacional
+414.0,atleta,MATHEUS VITAL GOMES,1,70425521486,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,87 kg,Nacional
+1192.0,atleta,CRISTIAN JORGE SOARES DE CASTRO,2,53169072803,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,87 kg,Nacional
+339.0,atleta,MATEUS FREIRE SANTOS,1,05825167579,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,97 kg,Nacional
+264.0,atleta,GUSTAVO DUARTE CONSTANTINO,2,20926649728,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,97 kg,Nacional
+445.0,atleta,JOAO VICTOR SILVA DINIZ,1,71422661474,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,130 kg,Nacional
+628.0,atleta,ANDRE GABRIEL DO AMARAL VIANA,2,04856088122,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,130 kg,Nacional
+1119.0,atleta,LUCAS ALBRES FALCAO MAIA,3,06752010129,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Greco-Romano,130 kg,Nacional
+701.0,atleta,ANA BEATRIZ SALES LIMA,1,05714666216,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,50 kg,Nacional
+129.0,atleta,ANA VITORIA SANTOS DO PRADO SILVA,2,16769052431,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,50 kg,Nacional
+316.0,atleta,STHEFANY GEOVANNA DO NASCIMENTO SILVA,3,08934700408,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,50 kg,Nacional
+33.0,atleta,MARIA PAULA DECHICO SATIRO,3,53551550816,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,50 kg,Nacional
+106.0,atleta,MARIA EDUARDA LOPES RAMOS CHAVES,1,07032806350,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,53 kg,Nacional
+1602.0,atleta,ANNA CAROLINA DA SILVA VIEIRA,2,17941174740,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,53 kg,Nacional
+644.0,atleta,LETICIA RODRIGUES DE AGUIAR,3,49148794848,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,53 kg,Nacional
+742.0,atleta,KAILANE ARAUJO DE SOUSA,1,04520711274,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,55 kg,Nacional
+768.0,atleta,CLARA LAVINHA OLIVEIRA FERNANDES,2,13327203407,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,55 kg,Nacional
+1311.0,atleta,FERNANDA CECILIA PEREIRA DE SENA,3,71689064455,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,55 kg,Nacional
+204.0,atleta,CAMILLA YAZAKI,3,40584469861,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,55 kg,Nacional
+167.0,atleta,THAINA ANIBAL RIBEIRO,1,48449271835,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,57 kg,Nacional
+337.0,atleta,LETICIA DE LIMA FEITAL,2,17690796702,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,57 kg,Nacional
+111.0,atleta,KAMILY CRISTINE GOMES CORTES,3,15861451770,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,57 kg,Nacional
+1054.0,atleta,RAISSA GONCALVES DE LIRA,3,13217561430,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,57 kg,Nacional
+203.0,atleta,JULIANA NEPER OLIVEIRA SANTOS,1,46859784806,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,62 kg,Nacional
+104.0,atleta,MAYARA RAMOS PEREIRA,2,49730809852,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,62 kg,Nacional
+621.0,atleta,THAIS TERTULIANO SALES,1,07036408103,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,68 kg,Nacional
+41.0,atleta,STEFANY DOS SANTOS FERREIRA,2,18275987784,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,68 kg,Nacional
+652.0,atleta,SAMARA DOS SANTOS SILVA,3,20497986795,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,68 kg,Nacional
+102.0,atleta,STEFANNI REGINA DA SILVA DIAS,1,46861035840,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,72 kg,Nacional
+1462.0,atleta,JULIA DA SILVA JOAQUIM,2,48969457860,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,72 kg,Nacional
+112.0,atleta,REBECA CAMILLI DE OLIVEIRA FONSECA,1,22017360732,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,76 kg,Nacional
+551.0,atleta,URSULA CRISTINA NASCIMENTO OLIVEIRA,2,13347010752,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,76 kg,Nacional
+1224.0,atleta,MARIA KLARA FREITAS MAIA,3,22803709724,Campeonato Brasileiro U20,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U20,Livre Feminino,76 kg,Nacional
+1942.0,atleta,THIAGO GABRIEL DA SILVA COSTA,1,05905037230,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Masculino,52 kg,Nacional
+1797.0,atleta,GUILHERME RODRIGUES MATSUMURA,2,11745283110,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Masculino,52 kg,Nacional
+2518.0,atleta,MARCOS VINICIUS MORAES TEIXEIRA,3,21649451741,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Masculino,52 kg,Nacional
+1668.0,atleta,AUZUERES SEVERINO DE SANTANA NETO,3,15817161419,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Masculino,52 kg,Nacional
+1351.0,atleta,ISAQUE DE SA BARBATTO,1,20486964736,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Masculino,57 kg,Nacional
+2515.0,atleta,FELIPE GABRIEL MOTTA VIEIRA,2,08266823243,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Masculino,57 kg,Nacional
+980.0,atleta,JOSE MARCOS ALVES DA SILVA,3,71036314413,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Masculino,57 kg,Nacional
+2092.0,atleta,DANIEL DOS ANJOS ALVES,3,54152741899,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Masculino,57 kg,Nacional
+813.0,atleta,NICOLAS VITOR VIANA ALVES BORGES,1,71776428463,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Masculino,68 kg,Nacional
+1549.0,atleta,GUILHERME SPINOLA DA SILVA,2,56493392870,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Masculino,68 kg,Nacional
+863.0,atleta,HEITOR ABREU SIQUEIRA COSTA,3,07236393100,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Masculino,68 kg,Nacional
+2124.0,atleta,VITOR MACEDO DE ALMEIDA,1,71738425495,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Greco-Romano,75 kg,Nacional
+2064.0,atleta,MATEUS DA SILVA LEITE FERREIRA,2,15200747430,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Greco-Romano,75 kg,Nacional
+1883.0,atleta,GUILHERME RODRIGO PORTO LEO FONTES,3,06676185547,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Greco-Romano,75 kg,Nacional
+1354.0,atleta,LUANNY BARBOSA DE SOUZA,1,20391728741,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Feminino,50 kg,Nacional
+1689.0,atleta,GABRIELLY AZEVEDO DA SILVA,2,06479199740,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Feminino,50 kg,Nacional
+1094.0,atleta,RAFAELA DE AZEVEDO BISPO,3,20802435785,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Feminino,50 kg,Nacional
+860.0,atleta,KAROLINE CERQUEIRA DOERL,3,07374861125,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Feminino,50 kg,Nacional
+1352.0,atleta,KAUANE VIEIRA DA COSTA,1,18178194708,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Feminino,54 kg,Nacional
+1945.0,atleta,THAYLAINE DA SILVA COSTA,2,06506272023,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Feminino,54 kg,Nacional
+2525.0,atleta,AGATHA RAFAELA TOMICHA MEDEIROS,3,07209006117,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Feminino,54 kg,Nacional
+1356.0,atleta,MARIA EDUARDA LUCIANO MIRANDA,1,05195678200,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Feminino,58 kg,Nacional
+2451.0,atleta,REBECA MEDEIROS DE OLIVEIRA,2,15629459716,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Feminino,58 kg,Nacional
+1331.0,atleta,LAYNNE GABRIELY FERREIRA TOLOSA,3,09530201265,Campeonato Brasileiro U15,Cuiabá - MT,14 de September de 2024,Cuiabá - MT,U15,Livre Feminino,58 kg,Nacional
+201.0,atleta,DAVI SILVA GIOVANNETTI,2,50566381885,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,57 kg,Internacional
+394.0,atleta,DANIEL FELIPE DOS SANTOS SILVA,3,47651728807,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,57 kg,Internacional
+103.0,atleta,KAIO DOURADO SOUZA DA SILVA,2,51225943841,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,65 kg,Internacional
+382.0,atleta,MATHEUS DA LUZ BARRETO,3,19647520786,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,65 kg,Internacional
+121.0,atleta,GUILHERMY DE JESUS OLIVEIRA SILVA,3,49828921804,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,65 kg,Internacional
+592.0,atleta,CESAR BORDEAUX REGO ALVAN,1,71781866155,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,74 kg,Internacional
+195.0,atleta,DOM JUAN MARTINS FERREIRA,2,04882949245,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,74 kg,Internacional
+229.0,atleta,PAULO ANDRE GONCALVES DA SILVA,3,07286375105,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,74 kg,Internacional
+230.0,atleta,PEDRO SAMUEL GONCALVES DA SILVA,1,07286383124,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,86 kg,Internacional
+277.0,atleta,GIOVANNI DE OLIVEIRA GAION PIAZZA,2,45528355800,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,86 kg,Internacional
+1150.0,atleta,MAX GABRIEL FRANCA MAGALHAES DE ALMEIDA,3,71258969106,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,86 kg,Internacional
+308.0,atleta,AILTON BRITO ROCHA,2,52280751860,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,97 kg,Internacional
+536.0,atleta,VINICIUS ALVES LESSA PAULA,3,11639086498,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,97 kg,Internacional
+360.0,atleta,GABRIEL DE SOUSA SILVA,1,47712761884,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,125 kg,Internacional
+386.0,atleta,GUILHERME PRADELLA LIMA,2,04374357092,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,125 kg,Internacional
+1153.0,atleta,WESLEY BARROS DAS DORES,3,45008336843,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Masculino,125 kg,Internacional
+72.0,atleta,PEDRO HENRIQUE DE SOUZA RODRIGUES,1,70231360452,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,60 kg,Internacional
+282.0,atleta,MARAT GARIPOV,2,23638047830,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,60 kg,Internacional
+517.0,atleta,ERIVAN CONSTANTINO ROCHA,3,16007302725,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,60 kg,Internacional
+587.0,atleta,ANGELO ANSELMO CAFE DE OLIVEIRA,1,06078271148,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,67 kg,Internacional
+330.0,atleta,GABRIEL LEANDRO DE OLIVEIRA MELLO,2,50306550857,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,67 kg,Internacional
+215.0,atleta,CALEBE CORREA FERREIRA,1,34512813845,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,77 kg,Internacional
+426.0,atleta,GUILHERME BARROS DE ARRUDA PORTO,2,05225016138,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,77 kg,Internacional
+134.0,atleta,KENEDY ANDERSON MORAES PEDROSA,3,01219364223,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,77 kg,Internacional
+138.0,atleta,KAUAN LUIZ FERREIRA GOMES,1,13048135766,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,87 kg,Internacional
+553.0,atleta,ANDRE LUIZ RAMOS PINTO,2,16986409788,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,87 kg,Internacional
+421.0,atleta,RONISSON BRANDAO SANTIAGO,3,38049831892,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,87 kg,Internacional
+718.0,atleta,THALYSON ALEIXO MACEDO,1,17198040799,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,97 kg,Internacional
+462.0,atleta,JOSE AUGUSTO DE ARAUJO JORGE,2,12354658451,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,97 kg,Internacional
+386.0,atleta,GUILHERME PRADELLA LIMA,1,04374357092,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,130 kg,Internacional
+364.0,atleta,HERVAL ANTUNES DA SILVA,2,22939817898,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Greco-Romano,130 kg,Internacional
+99.0,atleta,THALIA OLIVEIRA DE FREITAS,1,51669350800,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,50 kg,Internacional
+246.0,atleta,GEOVANIA MARQUES VIEIRA,2,07409879173,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,50 kg,Internacional
+316.0,atleta,STHEFANY GEOVANNA DO NASCIMENTO SILVA,3,08934700408,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,50 kg,Internacional
+190.0,atleta,SABRINA GAMA TAPAJOS,1,70068785275,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,53 kg,Internacional
+228.0,atleta,ASSIRIA DANIELA MAURICIO DA SILVA,2,05423047161,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,53 kg,Internacional
+1534.0,atleta,WANESSA LUCIANA BANDEIRA DE FIGUEIREDO,3,11217770402,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,53 kg,Internacional
+475.0,atleta,VIVIANE DE ALMEIDA BENTES,1,04224206200,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,57 kg,Internacional
+167.0,atleta,THAINA ANIBAL RIBEIRO,2,48449271835,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,57 kg,Internacional
+232.0,atleta,AMANDA LIMA LEAL,1,06777251162,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,62 kg,Internacional
+104.0,atleta,MAYARA RAMOS PEREIRA,2,49730809852,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,62 kg,Internacional
+203.0,atleta,JULIANA NEPER OLIVEIRA SANTOS,3,46859784806,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,62 kg,Internacional
+621.0,atleta,THAIS TERTULIANO SALES,1,07036408103,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,68 kg,Internacional
+98.0,atleta,THAISSA ANIBAL RIBEIRO,2,48449244862,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,68 kg,Internacional
+392.0,atleta,GRABRIELA PEDRO DA ROCHA,3,47317742848,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,68 kg,Internacional
+319.0,atleta,MEIRIELE CHARAMBA SANTOS HORA,1,52431379876,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,76 kg,Internacional
+265.0,atleta,ANA JULIA DOS SANTOS,2,24157921879,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,76 kg,Internacional
+1223.0,atleta,CAROLINA CLARA GONCALVES KERR,3,10762980605,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,Seniors,Livre Feminino,76 kg,Internacional
+2091.0,atleta,VICTOR ANDERSON DE SOUZA LIMA,1,04714548263,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U17,Livre Masculino,65 kg,Internacional
+84.0,atleta,JAILSON LEITE DA SILVA,1,70608556297,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,57 kg,Internacional
+487.0,atleta,RUAN FIGUEIREDO DA ROCHA,2,05640924284,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,57 kg,Internacional
+39.0,atleta,ROGER EMERSON DOS SANTOS RAMALHETE,3,18490406723,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,57 kg,Internacional
+198.0,atleta,WENZO NOGUEIRA DA SILVA,1,50873917880,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,65 kg,Internacional
+460.0,atleta,GABRIEL VINICIUS DA SILVA FERREIRA,2,71033363421,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,65 kg,Internacional
+96.0,atleta,RAFAEL REIS SANTOS SILVA,3,59427781831,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,65 kg,Internacional
+109.0,atleta,LUCAS DE OLIVEIRA SILVA,3,55827523828,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,65 kg,Internacional
+196.0,atleta,GABRIEL DA SILVA RODRIGUES BRITO,2,47506908808,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,74 kg,Internacional
+626.0,atleta,MATEUS SOARES DOS SANTOS,3,21625550774,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,74 kg,Internacional
+127.0,atleta,JOAO PEDRO REIS GONCALVES SILVA,3,59199870819,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,74 kg,Internacional
+1150.0,atleta,MAX GABRIEL FRANCA MAGALHAES DE ALMEIDA,1,71258969106,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,86 kg,Internacional
+561.0,atleta,MARCIEL MARTINEZ GONCALVES,2,08071517186,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,86 kg,Internacional
+1192.0,atleta,CRISTIAN JORGE SOARES DE CASTRO,3,53169072803,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,86 kg,Internacional
+1172.0,atleta,ANDREY GABRYELL SOARES DE SOUZA SANTOS,1,48295093843,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,97 kg,Internacional
+1153.0,atleta,WESLEY BARROS DAS DORES,1,45008336843,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,125 kg,Internacional
+675.0,atleta,PEDRO FERNANDES DE MORAIS,2,41514185806,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Masculino,125 kg,Internacional
+129.0,atleta,ANA VITORIA SANTOS DO PRADO SILVA,1,16769052431,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,50 kg,Internacional
+210.0,atleta,GIOVANNA CINCINATO PIMENTA,2,43803375886,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,50 kg,Internacional
+316.0,atleta,STHEFANY GEOVANNA DO NASCIMENTO SILVA,3,08934700408,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,50 kg,Internacional
+33.0,atleta,MARIA PAULA DECHICO SATIRO,1,53551550816,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,53 kg,Internacional
+768.0,atleta,CLARA LAVINHA OLIVEIRA FERNANDES,2,13327203407,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,53 kg,Internacional
+323.0,atleta,ANA LAURA FERREIRA REIS DE PAIVA,3,52718902876,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,53 kg,Internacional
+167.0,atleta,THAINA ANIBAL RIBEIRO,1,48449271835,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,57 kg,Internacional
+337.0,atleta,LETICIA DE LIMA FEITAL,2,17690796702,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,57 kg,Internacional
+203.0,atleta,JULIANA NEPER OLIVEIRA SANTOS,1,46859784806,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,62 kg,Internacional
+104.0,atleta,MAYARA RAMOS PEREIRA,2,49730809852,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,62 kg,Internacional
+110.0,atleta,EMILLY DOS SANTOS FERREIRA,3,18275989728,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,62 kg,Internacional
+621.0,atleta,THAIS TERTULIANO SALES,1,07036408103,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,68 kg,Internacional
+41.0,atleta,STEFANY DOS SANTOS FERREIRA,2,18275987784,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,68 kg,Internacional
+652.0,atleta,SAMARA DOS SANTOS SILVA,3,20497986795,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,68 kg,Internacional
+112.0,atleta,REBECA CAMILLI DE OLIVEIRA FONSECA,1,22017360732,Campeonato Sul-Americano de Wrestling 2024,Rio de Janeiro - RJ,28 de September de 2024,Rio de Janeiro - RJ,U20,Livre Feminino,76 kg,Internacional
+201.0,atleta,DAVI SILVA GIOVANNETTI,1,50566381885,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,57 kg,Nacional
+84.0,atleta,JAILSON LEITE DA SILVA,2,70608556297,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,57 kg,Nacional
+474.0,atleta,BRYAN LUCAS DE OLIVEIRA PEREIRA,3,04260896261,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,57 kg,Nacional
+27.0,atleta,JOSE LUCIANO HERCULANO DA SILVA,3,70765958422,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,57 kg,Nacional
+290.0,atleta,JOAO MARCELO MORATO DE OLIVEIRA,1,45365169808,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,61 kg,Nacional
+260.0,atleta,KAUA WILLIAN MARTINS MENEZES,2,12843481724,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,61 kg,Nacional
+312.0,atleta,ALEXSANDRO DE SOUZA DOS SANTOS,3,21055276718,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,61 kg,Nacional
+2617.0,atleta,LUCAS GUIMARAES BENTES,3,07255326293,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,61 kg,Nacional
+382.0,atleta,MATHEUS DA LUZ BARRETO,1,19647520786,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,65 kg,Nacional
+382.0,atleta,MATHEUS DA LUZ BARRETO,1,19647520786,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,65 kg,Nacional
+342.0,atleta,JOAO VICTOR DOS SANTOS SILVA,2,47301235810,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,65 kg,Nacional
+342.0,atleta,JOAO VICTOR DOS SANTOS SILVA,2,47301235810,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,65 kg,Nacional
+121.0,atleta,GUILHERMY DE JESUS OLIVEIRA SILVA,3,49828921804,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,65 kg,Nacional
+121.0,atleta,GUILHERMY DE JESUS OLIVEIRA SILVA,3,49828921804,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,65 kg,Nacional
+103.0,atleta,KAIO DOURADO SOUZA DA SILVA,3,51225943841,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,65 kg,Nacional
+103.0,atleta,KAIO DOURADO SOUZA DA SILVA,3,51225943841,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,65 kg,Nacional
+229.0,atleta,PAULO ANDRE GONCALVES DA SILVA,1,07286375105,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,74 kg,Nacional
+387.0,atleta,GABRIEL MARINS COUTINHO,2,18395463790,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,74 kg,Nacional
+195.0,atleta,DOM JUAN MARTINS FERREIRA,3,04882949245,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,74 kg,Nacional
+523.0,atleta,ELIVALDO FEITOSA COSTA,3,04356819233,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,74 kg,Nacional
+75.0,atleta,MARCOS PEREIRA DE OLIVEIRA JUNIOR,1,48135444877,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,79 kg,Nacional
+46.0,atleta,EMERSON VICTOR FERREIRA FEITOSA,2,53662817845,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,79 kg,Nacional
+510.0,atleta,MOUZER QUENIATA DOS SANTOS JACOB FILHO,3,51416712836,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,79 kg,Nacional
+11.0,atleta,RONIELE GOMES DA SILVA,3,08720719795,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,79 kg,Nacional
+277.0,atleta,GIOVANNI DE OLIVEIRA GAION PIAZZA,1,45528355800,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,86 kg,Nacional
+1150.0,atleta,MAX GABRIEL FRANCA MAGALHAES DE ALMEIDA,2,71258969106,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,86 kg,Nacional
+217.0,atleta,RENATO PATRICIO DA SILVA,3,43621025820,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,86 kg,Nacional
+230.0,atleta,PEDRO SAMUEL GONCALVES DA SILVA,3,07286383124,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,86 kg,Nacional
+476.0,atleta,IGOR GALVAO GOMES ANTUNES,1,11406139602,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,92 kg,Nacional
+512.0,atleta,PABLO RENNAN MIRANDA DE ARAUJO,2,08026183401,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,92 kg,Nacional
+776.0,atleta,ENRIQUE NUNES DE LIMA TORRES,3,10504339478,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,92 kg,Nacional
+82.0,atleta,EDUARDO DE MELO TROVAO,3,05642422251,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,92 kg,Nacional
+308.0,atleta,AILTON BRITO ROCHA,1,52280751860,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,97 kg,Nacional
+388.0,atleta,CLAUDIO MATEUS DOS SANTOS MACHADO DE SOUZA,2,20876058748,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,97 kg,Nacional
+868.0,atleta,TAWAN TEODOSIO MEDEIROS,3,70119061422,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,97 kg,Nacional
+536.0,atleta,VINICIUS ALVES LESSA PAULA,3,11639086498,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,97 kg,Nacional
+360.0,atleta,GABRIEL DE SOUSA SILVA,1,47712761884,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,125 kg,Nacional
+252.0,atleta,PHELIPE DOS SANTOS RIBEIRO DE CARVALHO,2,16654308778,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,125 kg,Nacional
+1153.0,atleta,WESLEY BARROS DAS DORES,3,45008336843,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,125 kg,Nacional
+521.0,atleta,FABIO CONCEICAO RODRIGUES,3,10734227477,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Masculino,125 kg,Nacional
+699.0,atleta,JOAO PEDRO AMORIM DE MOURA,1,05794119233,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,55 kg,Nacional
+27.0,atleta,JOSE LUCIANO HERCULANO DA SILVA,2,70765958422,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,55 kg,Nacional
+443.0,atleta,GEMERSON MOURA DOS SANTOS,3,70234281430,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,55 kg,Nacional
+72.0,atleta,PEDRO HENRIQUE DE SOUZA RODRIGUES,1,70231360452,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,60 kg,Nacional
+5.0,atleta,YAN LANDIM RIBEIRO,2,18907094764,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,60 kg,Nacional
+517.0,atleta,ERIVAN CONSTANTINO ROCHA,3,16007302725,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,60 kg,Nacional
+282.0,atleta,MARAT GARIPOV,3,23638047830,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,60 kg,Nacional
+471.0,atleta,BRUNO MOURA DA SILVA,1,05542525202,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,63 kg,Nacional
+755.0,atleta,HERCULES ISLANO SILVA DA CRUZ,2,12083582438,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,63 kg,Nacional
+774.0,atleta,VINICIUS GARCIA DA SILVA MARTINS,3,52705317805,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,63 kg,Nacional
+656.0,atleta,TIAGO SILVA DO NASCIMENTO,3,70023073470,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,63 kg,Nacional
+622.0,atleta,JOAO VITOR DE JESUS SILVA,1,55158052832,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,67 kg,Nacional
+330.0,atleta,GABRIEL LEANDRO DE OLIVEIRA MELLO,2,50306550857,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,67 kg,Nacional
+587.0,atleta,ANGELO ANSELMO CAFE DE OLIVEIRA,3,06078271148,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,67 kg,Nacional
+240.0,atleta,LUCAS MOURA CARVALHO,3,05865079140,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,67 kg,Nacional
+846.0,atleta,ADRIEL DO NASCIMENTO DE SOUZA,1,17426000770,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,72 kg,Nacional
+148.0,atleta,LAZARO DE OLIVEIRA SANTOS,2,12646233485,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,72 kg,Nacional
+680.0,atleta,GIL LEON LIMA DINIZ DA SILVA,3,36288220841,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,72 kg,Nacional
+151.0,atleta,JOAO PEDRO SOUZA SOARES,3,48874881819,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,72 kg,Nacional
+215.0,atleta,CALEBE CORREA FERREIRA,1,34512813845,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,77 kg,Nacional
+554.0,atleta,JOILSON DE BRITO RAMOS JUNIOR,2,16364901743,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,77 kg,Nacional
+465.0,atleta,JONATA DA SILVA DE SOUZA,3,71564509486,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,77 kg,Nacional
+182.0,atleta,ENZO PORTILHO DOS SANTOS SOARES DA SILVA,3,20367117746,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,77 kg,Nacional
+809.0,atleta,EDSON SILVA NUNES JUNIOR,1,10092468446,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,82 kg,Nacional
+280.0,atleta,DAVID PEREIRA BARBOSA,2,43949633898,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,82 kg,Nacional
+1052.0,atleta,FELIPE DANIEL ALEXANDRE DA SILVA PEREIRA,3,01575313413,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,82 kg,Nacional
+1243.0,atleta,SOSRUKO KODZOKOV,1,71862956146,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,87 kg,Nacional
+519.0,atleta,MICHAEL HENDSON NASCIMENTO DA SILVA LIMA,2,70259799459,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,87 kg,Nacional
+418.0,atleta,ADIL HENDRESSON BARROS MACHADO,3,44004791880,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,87 kg,Nacional
+138.0,atleta,KAUAN LUIZ FERREIRA GOMES,3,13048135766,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,87 kg,Nacional
+367.0,atleta,IGOR FERNANDO ALVES DE QUEIROZ,1,07244978111,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,97 kg,Nacional
+421.0,atleta,RONISSON BRANDAO SANTIAGO,2,38049831892,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,97 kg,Nacional
+209.0,atleta,GUILHERME EVANGELISTA DIAS,3,46508027840,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,97 kg,Nacional
+718.0,atleta,THALYSON ALEIXO MACEDO,3,17198040799,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,97 kg,Nacional
+457.0,atleta,EDUARD SOGHOMONYAN,1,23604442800,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,130 kg,Nacional
+450.0,atleta,MARCOS PAULO BARBOSA DA SILVA,2,08015297435,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,130 kg,Nacional
+2607.0,atleta,TULIO DA SILVA ALVES,3,07122699404,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,130 kg,Nacional
+508.0,atleta,RAMON DENIER FAUSTINO FELICIANO,3,07425571463,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Greco-Romano,130 kg,Nacional
+393.0,atleta,KAMILA BARBOSA VITO DA SILVA,1,01278063188,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,50 kg,Nacional
+99.0,atleta,THALIA OLIVEIRA DE FREITAS,2,51669350800,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,50 kg,Nacional
+246.0,atleta,GEOVANIA MARQUES VIEIRA,3,07409879173,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,50 kg,Nacional
+2504.0,atleta,GISLAINE CARDOSO MONTEIRO TAVARES,3,44560128898,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,50 kg,Nacional
+190.0,atleta,SABRINA GAMA TAPAJOS,1,70068785275,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,53 kg,Nacional
+228.0,atleta,ASSIRIA DANIELA MAURICIO DA SILVA,2,05423047161,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,53 kg,Nacional
+106.0,atleta,MARIA EDUARDA LOPES RAMOS CHAVES,3,07032806350,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,53 kg,Nacional
+2498.0,atleta,GEISA RAPHAEL VELOSO,1,14742375769,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,55 kg,Nacional
+26.0,atleta,LISLLY LIMA DA SILVA,2,70414770455,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,55 kg,Nacional
+1646.0,atleta,YARA ANDRADE DIRQUES SILVA,3,17862451759,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,55 kg,Nacional
+118.0,atleta,AMANDA DE LIMA DO NASCIMENTO,3,18373145788,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,55 kg,Nacional
+241.0,atleta,ANA LUIZA PEREIRA FRANCA,1,06814674106,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,57 kg,Nacional
+110.0,atleta,EMILLY DOS SANTOS FERREIRA,2,18275989728,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,57 kg,Nacional
+154.0,atleta,LETICIA CINCINATO PIMENTA,3,43902639865,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,57 kg,Nacional
+331.0,atleta,ROSEMARY CONCEICAO BRITO,1,08563240439,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,59 kg,Nacional
+1178.0,atleta,LYVIA GENUINA DE ALMEIDA CABRAL,2,71073500489,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,59 kg,Nacional
+422.0,atleta,MUNIQUE CRISTINA PINTO CALASANS CAMARGO,3,28400466870,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,59 kg,Nacional
+232.0,atleta,AMANDA LIMA LEAL,1,06777251162,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,62 kg,Nacional
+475.0,atleta,VIVIANE DE ALMEIDA BENTES,2,04224206200,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,62 kg,Nacional
+203.0,atleta,JULIANA NEPER OLIVEIRA SANTOS,3,46859784806,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,62 kg,Nacional
+104.0,atleta,MAYARA RAMOS PEREIRA,3,49730809852,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,62 kg,Nacional
+392.0,atleta,GRABRIELA PEDRO DA ROCHA,1,47317742848,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,68 kg,Nacional
+621.0,atleta,THAIS TERTULIANO SALES,2,07036408103,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,68 kg,Nacional
+98.0,atleta,THAISSA ANIBAL RIBEIRO,3,48449244862,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,68 kg,Nacional
+7.0,atleta,DAILANE GOMES DOS REIS,1,12607383706,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,72 kg,Nacional
+2059.0,atleta,FRANCISCA ERICA ARAUJO DE ANDRADE,2,12866595408,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,72 kg,Nacional
+1225.0,atleta,BRUNA DE SOUZA AZEREDO,3,22963535767,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,72 kg,Nacional
+245.0,atleta,THAMIRES MARTINS MACHADO,1,14911709723,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,76 kg,Nacional
+319.0,atleta,MEIRIELE CHARAMBA SANTOS HORA,2,52431379876,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,76 kg,Nacional
+1223.0,atleta,CAROLINA CLARA GONCALVES KERR,3,10762980605,Campeonato Brasileiro Sênior,Niterói - RJ,25 de November de 2024,Niterói - RJ,Seniors,Livre Feminino,76 kg,Nacional
