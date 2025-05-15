@@ -1,9 +1,8 @@
 import datetime
-
 import pandas as pd
 import requests
 from concurrent.futures import ThreadPoolExecutor
-
+from datetime import datetime
 
 def fetch_data(base_url, querys, headers, page):
 
@@ -20,6 +19,7 @@ def fetch_data_cpf(base_url, querys, headers, page):
 
         cpf = None
         id_atleta = item['id']
+        nome_completo = item['nome_completo'].upper()
 
         for documento in item['atletaDocumentos']:
 
@@ -31,7 +31,8 @@ def fetch_data_cpf(base_url, querys, headers, page):
 
         df = pd.DataFrame({
         "id_atleta": [id_atleta],
-        "cpf": [cpf]})
+        "cpf": [cpf],
+        "nome_completo": [nome_completo]})
 
         dfs.append(df)
 
@@ -311,7 +312,7 @@ def rank_arena_atleta(id_evento):
 def rank_arena_all_data():
 
     base_url = "https://restcbw.bigmidia.com/cbw/api/resultado-rank-arena"
-    expands = ["classe,modalidade,classePeso,atleta,atletaGestao,estabelecimento"]
+    expands = [ ]# ["classe,modalidade,classePeso,atleta,atletaGestao,estabelecimento"]
     headers = {"Content-Type": "application/json"}
     querys = f"?expand={expands}"
 
@@ -389,7 +390,11 @@ def percentuais_regiao_e_estado ():
     df_global = pd.concat(concat_list, ignore_index=True)
 
     #df_global.to_excel("compiled_2023_sge_data.xlsx", sheet_name="Compiled")
+def format_cpf(var):
 
+    cpf = str(var).zfill(11)  # Garante que tenha 11 dígitos
+
+    return f"{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}-{cpf[9:]}"
 
 def estabelecimentos_logos():
 
@@ -534,3 +539,69 @@ def atletas_exercito():
     f =rank_arena_atleta_resultados([2023, 2024], filtered_gatinhas)
 
     f.to_excel('exercito.xlsx')
+
+def map_style(var):
+    if 'GR' in var:
+        return "Greco-Romano"
+
+    elif var == 'FS':
+        return 'Livre Masculino'
+
+    else:
+        return 'Livre Feminino'
+
+def full_date(var):
+    try:
+
+        return datetime.strptime(str(var), "%Y-%m-%d %H:%M:%S").strftime(
+            "%d de %B de %Y")
+    except:
+        return var
+
+def local_formatado(var):
+
+    return var.encode('utf-8').decode('utf-8')
+
+def map_style_extense(var):
+
+    if 'Greco' in var:
+        return "Greco-Romano"
+
+    elif 'Female' in var:
+        return 'Livre Feminio'
+
+    else:
+        return 'Livre Masculino'
+
+
+def parse_date(value):
+    """
+    Converte qualquer entrada de data para datetime.datetime,
+    ou retorna pd.NaT se não for possível converter.
+    """
+    if pd.isna(value):
+        return pd.NaT
+
+    if isinstance(value, datetime):
+        return value
+
+    if isinstance(value, pd.Timestamp):
+        return value.to_pydatetime()
+
+    if isinstance(value, str):
+        # Tenta múltiplos formatos comuns
+        for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d", "%d/%m/%Y", "%d-%m-%Y", "%d/%m/%Y %H:%M:%S"):
+            try:
+                return datetime.strptime(value.strip(), fmt)
+            except ValueError:
+                continue
+
+    return pd.NaT  # Se nada funcionar
+
+
+def to_inteiro(var):
+    try:
+        return int(var)
+    except Exception as e:
+        print('exceção:', e)
+        return var

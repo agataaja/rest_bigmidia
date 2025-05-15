@@ -128,7 +128,7 @@ def create_declaration_prestacao(tabela_prestacao_ministerio):
             else:
                 pass
 
-        doc_path = fr"C:\Users\agata\PycharmProjects\RestApiBigmidia\bolsa atleta docx\new\{str(id_do_cidadao)}.docx"
+        doc_path = fr"/bolsa_atleta_docs\new\{str(id_do_cidadao)}.docx"
         doc.save(doc_path)
 
         convert(doc_path)

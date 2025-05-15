@@ -93,12 +93,6 @@ def return_results_formated_eventos(df_eventos_e_classe):
 
         return var.encode('utf-8').decode('utf-8')
 
-    def format_cpf(var):
-
-        cpf = str(var).zfill(11)  # Garante que tenha 11 dígitos
-
-        return f"{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}-{cpf[9:]}"
-
     def escopo(row):
         if '15' in row['audienceName']:  # Verifica se '15' está no nome
             row['escopo'] = 'Base'  # Altera o valor da coluna 'escopo' para 'Base'
@@ -151,34 +145,6 @@ def return_results_formated_ranking(df_eventos_e_classe):
     merged_events_results = merged_events_results.merge(cpf_info, left_on='atleta.id', right_on='id_atleta',
                                                         how='left')
 
-    def map_style(var):
-        if 'GR' in var:
-            return "Greco-Romano"
-
-        elif var == 'FS':
-            return 'Livre Masculino'
-
-        else:
-            return 'Livre Feminino'
-
-    def full_date(var):
-        try:
-
-            return datetime.strptime(str(var), "%Y-%m-%d %H:%M:%S").strftime(
-                "%d de %B de %Y")
-        except:
-            return var
-
-    def local_formatado(var):
-
-        return var.encode('utf-8').decode('utf-8')
-
-    def format_cpf(var):
-
-        cpf = str(var).zfill(11)  # Garante que tenha 11 dígitos
-
-        return f"{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}-{cpf[9:]}"
-
     merged_events_results['tipo'] = 'atleta'
     merged_events_results['ranking'] = 'Ranking Nacional de Wrestling 2024'
     merged_events_results['estilo'] = merged_events_results['sportAlternateName'].apply(map_style)
@@ -229,6 +195,7 @@ def return_results_formated_ranking(df_eventos_e_classe):
                  quoting=csv.QUOTE_MINIMAL)
 
     return final
+
 
 
 if __name__ == '__main__':
