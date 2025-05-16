@@ -1,12 +1,9 @@
-import os
-import pandas as pd
-from datetime import datetime
 import locale
 from dateutil.relativedelta import relativedelta
 import csv
-
 from api_consultas.funtions_main import *
 from cache_manager import *
+
 
 locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
 
@@ -41,7 +38,8 @@ def filtrar_resultados_ultimo_ano(df_resultados: pd.DataFrame, id_atleta: int, d
 
     return df_resultados[
         (df_resultados['data_fim'] >= data_inicio) &
-        (df_resultados['customId'] == id_atleta)
+        (df_resultados['customId'] == id_atleta) &
+        (df_resultados['data_fim'] <= data_referencia)
     ]
 
 
@@ -77,19 +75,19 @@ def gerar_lista_resultados_html(df_resultados: pd.DataFrame, limit: int) -> str:
 
 # === FUNÇÕES DE PROCESSAMENTO PRINCIPAL === #
 
-def gerar_dataframe_resultados(df_ministerio: pd.DataFrame) -> pd.DataFrame:
+def gerar_dataframe_resultados(df_minister: pd.DataFrame) -> pd.DataFrame:
     """Gera o DataFrame final com as informações e resultados formatados"""
 
     resultados_api = CACHE(cache_file_name='todos_dados_api_rank_arena').load_dataframe_from_cache()
     eventos_info = CACHE(cache_file_name='dados_eventos_2023a2025').load_dataframe_from_cache()
     resultados_api = resultados_api.merge(eventos_info, how='left', left_on='id_evento', right_on='id')
 
-    df_ministerio['id_atleta'] = df_ministerio['id_atleta'].astype('Int64')
-    df_ministerio['cpf'] = df_ministerio['cpf'].apply(format_cpf)
+    df_minister['id_atleta'] = df_minister['id_atleta'].astype('Int64')
+    df_minister['cpf'] = df_minister['cpf'].apply(format_cpf)
 
     registros = []
 
-    for _, row in df_ministerio.iterrows():
+    for _, row in df_minister.iterrows():
 
         id_atleta = row['id_atleta']
         categoria = row['categoria_bolsa']
@@ -120,7 +118,7 @@ def salvar_csv(df: pd.DataFrame, nome_arquivo: str):
 
 # === MAIN === #
 
-def main():
+def main_fun():
     """Executa o processo completo de geração dos resultados da prestação"""
     # carregar_dados_cache()
 
@@ -128,7 +126,7 @@ def main():
     df_ministerio = CACHE(cache_file_name='dados_prestacao_2025').load_dataframe_from_cache()
 
     # Filtra só os atletas com prestação no mês atual
-    df_ministerio = df_ministerio[df_ministerio['data_final'].dt.month == current_month]
+    df_ministerio = df_ministerio[df_ministerio['data_final'].dt.month <= current_month]
 
     # Adiciona infos de id e cpf pelo nome
     df_completo = combinar_infos_por_nome(df_ministerio, 'nome_completo')
@@ -143,4 +141,5 @@ def main():
 
 if __name__ == '__main__':
 
-    main()
+    main_fun()
+    print('finish now baby', datetime.now())

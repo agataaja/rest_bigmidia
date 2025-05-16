@@ -58,7 +58,7 @@ def return_results_formated_eventos(df_eventos_e_classe):
 
     eventos_infos = CACHE(cache_file_name='dados_eventos_2024').load_dataframe_from_cache()
     results_df = CACHE(cache_file_name='todos_dados_api_rank_arena').load_dataframe_from_cache()
-    cpf_info = CACHE(cache_file_name='cpf_id_atlleta').load_dataframe_from_cache()
+    cpf_info = CACHE(cache_file_name='cpf_id_atleta').load_dataframe_from_cache()
 
     filtered_results = results_df[results_df['rank'] <= 3]
 
@@ -125,7 +125,7 @@ def return_results_formated_ranking(df_eventos_e_classe):
     eventos_infos = CACHE(cache_file_name='dados_eventos_2024').load_dataframe_from_cache()
 
     results_df = CACHE(cache_file_name='todos_dados_api_rank_arena').load_dataframe_from_cache()
-    cpf_info = CACHE(cache_file_name='cpf_id_atlleta').load_dataframe_from_cache()
+    cpf_info = CACHE(cache_file_name='cpf_id_atleta').load_dataframe_from_cache()
     ranking_nacional_2024 = CACHE(cache_file_name='ranking_nacional_2024').load_dataframe_from_cache()
 
     ranking_nacional_2024 = ranking_nacional_2024[ranking_nacional_2024['colocacao'] <= 3]
@@ -197,8 +197,8 @@ def return_results_formated_ranking(df_eventos_e_classe):
     return final
 
 
-
 if __name__ == '__main__':
+
 
     return_results_formated_eventos(return_id_classe_peso_for_evento(arquivo_indicacoes_1))
     #return_results_formated_ranking(return_id_classe_peso_for_evento(arquivo_indicacoes_1))

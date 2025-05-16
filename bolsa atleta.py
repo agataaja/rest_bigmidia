@@ -14,8 +14,8 @@ locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
 
 def create_declaration_prestacao(tabela_prestacao_ministerio):
 
-    df_atleta = CACHE(cache_file_name='main_atlleta').load_dataframe_from_cache()
-    df_cpf = CACHE(cache_file_name='cpf_id_atlleta').load_dataframe_from_cache()
+    df_atleta = CACHE(cache_file_name='main_atleta').load_dataframe_from_cache()
+    df_cpf = CACHE(cache_file_name='cpf_id_atleta').load_dataframe_from_cache()
 
     atleta_cpf_df = pd.merge(df_atleta,
                              df_cpf,
