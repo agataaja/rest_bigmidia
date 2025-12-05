@@ -1,9 +1,11 @@
 import joblib
 import os
 import pandas as pd
+from pathlib import Path
 
-CACHE_DIR = 'cache'
 
+BASE_DIR = Path(__file__).resolve().parent
+CACHE_DIR = os.path.join(BASE_DIR, r'cache')
 
 class CACHE:
 

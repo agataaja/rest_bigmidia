@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "certificates-manager-cbw",
+  "private_key_id": "93a56e120c6aa1ff99eba2caf78d851454e4626e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCoAiii278lUeh+\nF2LBW/ZggmAcsbn3J3lKfcLvqkAy8jYIkjy0SI/qtvRpJsJxGUFqa5CqcuT5vK9q\nAxIP2xZvETvC+zX6zhN06gOn5SSu4F0OZkUjThjPEEtpOxGPG+PMLxi9L2JLs0Wl\nEJsP0xqX3rVhNaEDcPrRVSBKCjjbcrYbH6u9bXXG3t5S1yRSlMe5HFP9sW/Zwhz4\n/dBwx0EPMoWhhJwr56vwMKL2vEcaNQNbscAqcW5BaAZu32vAnK2g42vqgIl0E1k2\nWuD27uFrOYXE+iyr3cDVDYy6dBQQ9zmdItA7e6JY5AIuARJ953pC0MkTB9tz5iaU\nPdrXKyu7AgMBAAECggEADLV5GHSx/WM4SI2BUWog9YT3O0RwclNAmBNyUwnYaGIt\nFzHkuKiChnlHfMrLS53i9mdjnpkpXADbbhQEYkGq7UTq9eFl4G6FR0NKeoFZaIcd\nUvEGitimBMfRRIkM13v/G9t2Lh1u/JX3jzh12lkYOmPE6bESWH3L41jio+cpDOR9\npGbXWlekCDg6CTiBSKwNtyTMc1BnEo2zpbqvEzlJWT+qRB1QQFuaZFFlfFViwy1h\noiSanD/KnGzsG4feDcvkfgskPIQvgpwXwhJ5TcYzrgTBwrwUxxIdsrZacGztsLhL\nEsXi66BUNUegXeuWlHYIwtDG6tyh2DC/9wMASB3FEQKBgQDRXkFeMe+h0lilBoeZ\ns5X0L4ZnnIVq8EHlGWcCS6zFAHXBq3Cx2FggbFwKd2fsu5A318w3kcRcDJwhFAvA\n8N8ieE+ahDFfURqf0IUCUf4JA9aKRtQjZ0FcVbTqcCZ5MLikFkUHoASDVNsD+teI\nLkXYVm9/WqLNjKMreGg9Pr5/6wKBgQDNbae1GOexucwn0i65hqFW//40DHCnNy1u\nQLRuJyZ8pkwC19Ayo0x6m3dYjndik7ibuN2r35TVd7gDYqAnLOZZaF7SbJz7rBFP\nqJez7RSBH2e+nGQu2nJe03ag2xRorN1VNQVNoOZ9MxY0eE8iJx1framfQMVF1mWL\njhz3KDXfcQKBgQCHL2DtvTiJOBRcmda8e6R7QqR6CiprXi5uCvTkGpC3sxBVuKjP\nbG2aodzcNTU5OfJo3EHUL56mAM5e3V6ped3Zl+1uS6TFcszKHA2F7gMlNwEzz3/y\nTB17zSs/pKJy5e6SpH516fCADC5OZ4z7NUWL5mOfy5oLNp+01c4YnYbLeQKBgH+l\nDTo3+W+zdSmhLitVflbixf9tY2pjnLUPO43egcmeQ0jY9KMiWNkuVOAP1hrIk0Mf\ngY3UZVSnCQ4BcGYnPhJ8Cb9SgdDXwAHxTiIcxErfSsVjw9RhJAPL/cBBoNLR5s2V\nHnB39AADiF6eCv27tELJU8aCppGYgIxQh6sDr0XhAoGBAI8ju6RM2Me0b9JTxKyK\ntkk8xRaNDAdCKmDMov96ogbgGBWSlIwphs7FVTXq+MKPc+XmDVjlmPkKXI2VIE0e\ntmA5WbOGknkjU0uqdY3xxER0KUTfmVjP9JjXtTFVjCSiPX1sLZCN+JPu1GorXmEh\nQhh8/cRdyFs/TeplkeCAcEXe\n-----END PRIVATE KEY-----\n",
+  "client_email": "agata-277@certificates-manager-cbw.iam.gserviceaccount.com",
+  "client_id": "110454503828504480306",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/agata-277%40certificates-manager-cbw.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
