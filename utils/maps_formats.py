@@ -15,14 +15,18 @@ def map_style(var):
 
 
 def map_style_sge(var):
-    if 'Greco' in var:
+
+    v = var.lower()
+
+    if any(x in v for x in ['greco', 'gr', 'greco-romano - masc.']):
         return "GR"
-    elif 'Livre - Masc.' in var:
-        return 'FS'
-    elif 'Livre - Fem.' in var:
+
+    elif any(x in v for x in
+             ['fem', 'female', 'livre - fem.', 'women', "woman's", "women's", 'livre feminino', 'livre-feminino']):
         return 'WW'
-    else:
-        return var
+
+    elif any(x in v for x in ['livre - masc.', 'freestyle', 'livre masculino', 'livre-masculino']):
+        return 'FS'
 
 
 def map_age_group_sge(var):
@@ -38,6 +42,7 @@ def map_age_group_sge(var):
         return "u23"
     else:
         return var
+
 
 def map_audience_name_by_name(var):
 
@@ -103,19 +108,22 @@ def local_formatado(var):
 
 
 def map_style_extense(var):
-    if 'Greco' in var or 'GR' == var or 'Greco-Romano - Masc.' == var:
+
+    v = var.lower()
+
+    if any(x in v for x in ['greco', 'gr', 'greco-romano - masc.']):
         return "Greco-Romano"
 
-    elif 'Female' in var or 'WW' == var or 'Estilo Livre - Fem.' == var or 'Women' in var:
+    elif any(x in v for x in ['fem', 'female', 'livre - fem.', 'women', "woman's", "women's", 'livre feminino', 'livre-feminino']):
         return 'Livre Feminino'
 
-    elif 'Freestyle' in var or 'FS' == var or 'Estilo Livre - Masc.' == var:
+    elif any(x in v for x in ['livre - masc.', 'freestyle', 'livre masculino', 'livre-masculino']):
         return 'Livre Masculino'
 
-    elif 'Beach Wrestling - Fem.' == var or 'BWF' == var:
+    elif 'beach wrestling - fem.' == var or 'bwf' == var:
         return 'Beach Wrestling Feminino'
 
-    elif 'Beach Wrestling - Masc.' == var or 'BWM' == var:
+    elif 'beach wrestling - masc.' == var or 'bwm' == var:
         return 'Beach Wrestling Masculino'
 
 
@@ -225,3 +233,56 @@ def format_cpf(var):
     cpf = str(var).zfill(11)  # Garante que tenha 11 dígitos
 
     return f"{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}-{cpf[9:]}"
+
+
+def parse_date_normal(value):
+    """
+    Converte qualquer entrada de data para o formato dd/mm/yyyy.
+    Retorna string formatada ou pd.NaT se não for possível.
+    """
+
+    if pd.isna(value):
+        return pd.NaT
+
+    # Se já for datetime
+    if isinstance(value, datetime):
+        return value.strftime("%d/%m/%Y")
+
+    # Se for Timestamp
+    if isinstance(value, pd.Timestamp):
+        return value.to_pydatetime().strftime("%d/%m/%Y")
+
+    # Se for string
+    if isinstance(value, str):
+        value = value.strip()
+
+        formatos = [
+            "%Y-%m-%d %H:%M:%S",
+            "%Y-%m-%d",
+            "%d/%m/%Y",
+            "%d-%m-%Y",
+            "%d/%m/%Y %H:%M:%S",
+            "%Y/%m/%d",
+            "%m/%d/%Y",
+            "%m-%d-%Y",
+        ]
+
+        for fmt in formatos:
+            try:
+                dt = datetime.strptime(value, fmt)
+                return dt.strftime("%d/%m/%Y")
+            except ValueError:
+                pass
+
+    return pd.NaT
+
+
+def map_genero(var):
+
+    if 'Female' in var or 'WW' == var or 'Estilo Livre - Fem.' == var or 'Women' in var or 'Livre Feminino' in var or 'Fem':
+        return 'F'
+
+    else:
+
+        return 'M'
+

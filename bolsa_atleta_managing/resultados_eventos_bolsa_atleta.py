@@ -1,6 +1,10 @@
+import pandas as pd
+
 from api_consultas.funtions_main import *
 from cache_manager import *
 from utils.save_files import save_df
+from utils.maps_formats import map_subcategoria_etaria, map_style_extense, parse_date_normal, map_style_sge, map_genero
+import numpy as np
 
 
 def consultar_cpf(id_atleta):
@@ -27,15 +31,13 @@ def consultar_cpf(id_atleta):
 
 def listar_code_alt_atletas_internacionais():
 
-    credentials = {
-        "api_key": "umtGezJZXZEj8cRmvPQzZEU8SNkRuN7mFfmuLypa6rpJUKvZ5A",
-        "client_id": "d1532eae14baf3ff798b6c7be8a8355f",
-        "client_secret": "2356194b47bbcb3b8d2b6e5dc06831a60e1f8248d68b7ab4b2b549d181ec0075920b1883c81caa941c00648ebafac3d23dc56e6fdaa5919b000140503d670486",
-        "ip": "localhost",
-        "event_id": "1ef7a6f3-3c08-6d1c-888c-0bbb56184a5a",
-        "directory": "C:/Users/agata/CBW 2024/ARENA INTEGRA\u00c7\u00c3O 2024",
-        "user_name": "CAMPEONATO SUL-AMERICANO"
-    }
+    credentials = {"api_key": "jGpEm51R2k5nYZ6uVtcqjBnBsksrcUhteFfgFXPLhysSiW37he",
+                   "client_id": "b020a718926bba9cb4053adcb4cd22fc",
+                   "client_secret": "89c383a23f21a3f0f33f8ddbe6194b89ec13cbe7e401416875cfdbea3740b3173178250509f28fe22bff23040232e2dd59c7041a907084aa1ecb15f0ddbb7153",
+                   "ip": "localhost",
+                   "event_id": "1f0a3f5e-bdab-6e26-8ba8-f9a431d14600",
+                   "directory": "none",
+                   "user_name": "sula25"}
 
     def get_token(api_key, client_id, client_secret, ip):
         url = f'http://{ip}:8080/oauth/v2/token'
@@ -55,12 +57,14 @@ def listar_code_alt_atletas_internacionais():
         response = requests.get(url, headers=headers)
         return response.json()
 
-    atletas_json = get_endpoint_response(headers, 'athlete/1ef7a6f3-3c08-6d1c-888c-0bbb56184a5a?limit=400')
+    atletas_json = get_endpoint_response(headers, 'athlete/1f0a3f5e-bdab-6e26-8ba8-f9a431d14600?limit=1000')
 
     nome_code_dict = {}
 
     for item in atletas_json['athletes']['items']:
         nome_code_dict[item['personFullName']] = item['teamAlternateName']
+
+    CACHE(cache_instance=nome_code_dict, cache_file_name='atleta_internacional_pais_dict').save_dataframe_to_cache()
 
     return nome_code_dict
 
@@ -100,128 +104,181 @@ def run_main_results():
 
     ids = {
         "nacional": [
-            177,  # BRA U23
-            160,  # BRA U17
-            153,  # BRA U15
-            179,  # BRA Sênior
+            '177',  # BRA U23
+            '160',  # BRA U17
+            '153',  # BRA U15
+            '179',  # BRA Sênior
         ],
         "pan": [
-            156,  # PAN U20
-            155,  # PAN U17
-            150,  # PAN SÊNIOR
+            '156',  # PAN U20
+            '155',  # PAN U17
+            '150',  # PAN SÊNIOR
         ],
         "sula": [
-            175,  # SUL-AMERICANO
+            '175',  # SUL-AMERICANO
         ],
     }
 
-    df_list = []
+    def to_int(series):
+        return series.astype(str)
 
+    # Carregar DFS
     data = CACHE(cache_file_name='all_rank_arena_data').load_dataframe_from_cache()
+    cpf_data = CACHE(cache_file_name='cpf_id_nome_atleta').load_dataframe_from_cache()
+    evento_data = CACHE(cache_file_name='dados_eventos_2025').load_dataframe_from_cache()
+    nome_code_dict = CACHE(cache_file_name='atleta_internacional_pais_dict').load_dataframe_from_cache()
+    ranking_nacional_25 = CACHE(cache_file_name='ranking_nacional_2025').load_dataframe_from_cache()
 
-    data_filter = data[data['id_evento'].isin(ids['nacional'])]
+    def format_ranking(df):
 
-    save_df(data_filter, "xlsx")
-    breakpoint()
+        df = df[df['categoria'].isin(['Sênior', 'Sub-20', 'Sub-17'])]
 
-    for representatividade in ids:
-        if representatividade == "nacional":
-            for evento in representatividade:
+        df['descricao'] = ('Ranking Nacional ' + df['categoria'].astype(str))
 
-                resultados_api_df = rank_arena_atleta(evento)
+        df['peso_norm'] = df['peso'].astype(str).str.replace(r'kg', ' kg', regex=True)
 
-                resultados_api_df['Cpf'] = 0
-                resultados_api_df['Uf'] = ''
-                resultados_api_df['Uf2'] = ''
+        df.rename(columns={'id_atleta': 'customId',
+                           "colocacao": 'rank',
+                           'nome_completo': 'atleta.nome_completo',
+                           'estilo': 'sportName',
+                           'categoria': 'audienceName',
+                           'peso_norm': 'name',
+                           'federacao_uf': 'atleta.estabelecimento.uf'}, inplace=True)
 
-                with ThreadPoolExecutor(max_workers=10) as executor:
-                    resultados_api_df = list(executor.map(process_row, [row for index, row in resultados_api_df.iterrows()]))
+        df['data_inicio'] = '31/12/2025'
+        df['local'] = 'Ranking'
+        df['atleta.sexo'] = df['sportName'].apply(map_genero)
+        df['sportAlternateName'] = df['sportName'].apply(map_style_sge)
+        df['customId'] = df['customId'].astype(str)
+        df['code'] = 'BRA'
 
-                df_list.append(pd.DataFrame(resultados_api_df))
+        return df
 
-        elif representatividade == "pan":
-            pass
+    df_ranking = format_ranking(ranking_nacional_25)
 
-        elif representatividade == 'sula':
-            pass
+    data['code'] = 'BRA'
+    data['code'] = data['fullName'].map(nome_code_dict).fillna('BRA')
 
-    final = pd.concat(df_list)
+    # Padronizar colunas de ID
+    cols_data = ["customId", "id_evento"]
+    cols_cpf = ["id_atleta"]
+    cols_evento = ["id"]
 
-    save_df(final, "xlsx")
+    for col in cols_data:
+        data[col] = to_int(data[col])
+
+    for col in cols_cpf:
+        cpf_data[col] = to_int(cpf_data[col])
+
+    for col in cols_evento:
+        evento_data[col] = to_int(evento_data[col])
+
+    data_cpf = data.merge(cpf_data, how='left', left_on='customId', right_on='id_atleta')
+    df_ranking = df_ranking.merge(cpf_data, how='left', left_on='customId', right_on='id_atleta')
+
+    data_cpf_evento = data_cpf.merge(evento_data, how='left', left_on='id_evento', right_on='id')
+
+    all_ids = ids["nacional"] + ids["pan"] + ids["sula"]
+
+    data_filter = data_cpf_evento[data_cpf_evento['id_evento'].isin(all_ids)]
 
     def format_events_df(df):
 
-        df['QUANT. DE UF NO EVENTO (numero)'] = df.groupby('id_classe_peso')['Uf'].transform('nunique')
+        df['subcategoria_etaria'] = df['audienceName'].apply(
+            map_subcategoria_etaria)
 
-        df['QUANT. DE ESTADOS NA PROVA (nomes dos UF)'] = df.groupby('id_classe_peso')['Uf'].transform(lambda x: ', '.join(x.unique()))
+        df['modalidade'] = df['sportName'].apply(map_style_extense)
 
-        df = df[df['rank'] <= 6]
+        df['classe_funcional'] = 'Não se aplica'
 
-        # final['Subcategoria etária'] = np.where(final['audienceName'] == 'Base', 'Principal', 'Iniciante')
+        pesos_olimpicos = {'FS': ['57 kg', '65 kg', '74 kg', '86 kg', '97 kg', '125 kg'],
+                           'WW': ['50 kg', '53 kg', '57 kg', '62 kg', '68 kg', '76 kg'],
+                           'GR': ['60 kg', '67 kg', '77 kg', '87 kg', '97 kg', '130 kg']}
 
-        colunas = [
-            "EVENTO",  # NACIONAL/INTERNACIONAL ( Especificar se for ranking)
-            "MODALIDADE",
-            "Data do evento",
-            "Local do evento",
-            "Representatividade do evento ( Mundial , panamericano, olímpico, internacional, nacional, Sul Americano, Estudantil, base, surdolímpico)",
-            "Subcategoria etaria ( Principal, Intermediário ou iniciante)",
-            "Prova / forma de disputa",
-            "PROVA OLIMPICA ( Se é realizada nas olimpíadas)",
-            "Genero (Masculino, Feminino ou Misto)",
-            "Classificação",
-            "Nome (completo) dos atletas",
-            "CPF dos atletas",
-            "CLASSE FUNCIONAL (paratletas)",
-            "QUANT. DE UF NO EVENTO (numero)",
-            "QUANT. DE ESTADOS NA PROVA (nomes dos UF)"
+        df['peso_olimpico'] = df.apply(
+            lambda row: row['name'] in pesos_olimpicos.get(row['sportAlternateName'], []),
+            axis=1
+        )
+
+        df['categoria_olimpica'] = (
+                (df['subcategoria_etaria'].isin(['Principal', 'Intermediária'])) &
+                (df['peso_olimpico'])
+        ).map({True: 'Sim', False: 'Não'})
+
+        df['uf_ou_code'] = df.apply(
+            lambda row: row['code'] if row['escopo'] == 'Internacional'
+            else row['atleta.estabelecimento.uf'],
+            axis=1
+        )
+
+        df['nome_final'] = df.apply(
+            lambda row: row['fullName'].upper() if row['id_evento'] == '175'
+            else row['atleta.nome_completo'],
+            axis=1
+        )
+
+        df['uf_final'] = df.apply(
+            lambda row: row['code'] if row['code'] != 'BRA'
+            else row['atleta.estabelecimento.uf'],
+            axis=1
+        )
+
+        df['distinct_count_uf'] = (df.groupby(['id_classe_peso', 'descricao', 'audienceName'])['uf_ou_code']
+                                   .transform('nunique'))
+        df['name_count_uf'] = (df.groupby(['id_classe_peso', 'descricao', 'audienceName'])['uf_ou_code']
+                               .transform(lambda x: ', '.join(x.unique())))
+
+        df = df[
+            np.where(
+                df['id_evento'].isin(['156', '155', '150']),
+                df['rank'] <= 3,  # se o evento está na lista → até 3º
+                df['rank'] <= 6  # caso contrário → até 6º
+            )
         ]
 
-        Colunas_desejadas = ["EVENTO",
-                             "MODALIDADE",
-                             "Data do evento",
-                             "Local do evento",
-                             "Representatividade",
-                             "Subcategoria etaria",
-                             "Prova",
-                             "PROVA OLIMPICA ( Se é realizada nas olimpíadas)",
-                             "Genero",
-                             "Classificação",
-                             "Nome",
-                             "CPF",
-                             "CLASSE FUNCIONAL",
-                             "QUANT. DE UF NO EVENTO (numero)",
-                             "QUANT. DE ESTADOS NA PROVA (nomes dos UF)"]
+        df['data_inicio'] = df['data_inicio'].apply(parse_date_normal)
 
-        events_data = CACHE(cache_file_name='dados_eventos_2025').load_dataframe_from_cache
+        colunas_map = {
+            "EVENTO": 'descricao',
+            "MODALIDADE": 'modalidade',
+            "Data do evento": 'data_inicio',
+            "Local do evento": 'local',
+            "Representatividade do evento": 'escopo',
+            "Subcategoria etária": 'subcategoria_etaria',
+            "Prova": 'name',
+            "PROVA OLÍMPICA": 'categoria_olimpica',
+            "Gênero": 'atleta.sexo',
+            "Classificação": 'rank',
+            "Nome do atleta": 'nome_final',
+            "CPF do atleta": 'cpf',
+            'UF atleta': 'uf_final',
+            "CLASSE FUNCIONAL": 'classe_funcional',
+            "QUANT. DE UF NO EVENTO (numero)": 'distinct_count_uf',
+            "QUANT. DE ESTADOS NA PROVA (nomes dos UF)": 'name_count_uf'
+        }
 
-        merge = pd.merge(final,
-                         events_data,
-                         how='left',
-                         left_on='id_evento',
-                         right_on='id')
+        colunas_existentes = {k: v for k, v in colunas_map.items() if v in df.columns and v != ""}
 
-        filtrada = merge[['rank',
-                          'fullName',
-                          'Cpf',
-                          'Uf',
-                          'classePeso.sexo',
-                          'audienceName',
-                          'sportName',
-                          'name',
-                          'descricao',
-                          'DistinctCount',
-                          'ufs_concatenados']]
+        # Seleciona as colunas
+        df_final = df[list(colunas_existentes.values())].copy()
 
-        filtrada.to_excel(r"C:\Users\agata\CBW 2025\BOLSA ATLETA\INDICAÇÃO DE RESULTADOS 2025\{evento}.xlsx")
+        # Renomeia para os nomes desejados (as chaves)
+        df_final = df_final.rename(columns={v: k for k, v in colunas_existentes.items()})
 
-        print(final)
-        print(merge.columns)
+        return df_final
+
+    concat = pd.concat([data_filter, df_ranking], ignore_index=True)
+
+    final = format_events_df(concat)
+
+    save_df(final, "xlsx")
 
 
 if __name__ == '__main__':
 
     run_main_results()
+
+
 
 
 
